@@ -239,14 +239,20 @@ body {
 
 .team-list {
     display: flex;
-    column-gap: 20px;
     flex-wrap: wrap;
+    gap: 24px;
 }
 
 .team-item {
     background-color: #FFFFFF;
     width: 264px;
     height: 380px;
+    border-radius: 0px 0px 4px 4px;
+}
+
+.team-container {
+    padding-top: 32px;
+    padding-bottom: 32px;
 }
 
 .team-title {
@@ -256,7 +262,6 @@ body {
     line-height: 1.2;
     letter-spacing: 0.02em;
     color: #2E2F42;
-    margin-top: 32px;
     margin-bottom: 8px;
 }
 
