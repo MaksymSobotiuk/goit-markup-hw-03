@@ -208,7 +208,11 @@ body {
 
 .features-list {
     display: flex;
-    column-gap: 40px;
+    gap: 24px;
+}
+
+.features-item {
+    width: calc((100% - 72px) / 4);
 }
 
 .features-text {
