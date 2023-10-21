@@ -83,6 +83,7 @@ body {
 .page-header {
     padding-top: 24px;
     padding-bottom: 24px;
+    border-bottom: 1px solid #e7e9fc
 }
 
 /* Logotype */
@@ -109,7 +110,9 @@ body {
 
 .menu-list {
     display: flex;
-    column-gap: 40px;
+    gap: 40px;
+    padding-top: 24px;
+    padding-bottom: 24px;
 }
 
 .menu-link {
@@ -136,7 +139,7 @@ body {
 
 .adress-list {
     display: flex;
-    column-gap: 40px;
+    gap: 40px;
 }
 
 .adress-link {
